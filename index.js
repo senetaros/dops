@@ -16,4 +16,3 @@ function playGame(userChoice) {
     }
     console.log(`Вы показали ${userChoice}, компьютер показывает ${computerChoice}. Победил ${winner}.`);
 }
-console.log(`Вы показали ${userChoice}, компьютер показывает ${computerChoice}. Победил ${winner}.`);
