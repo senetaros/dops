@@ -1,4 +1,4 @@
-function playGame(userChoice) 
+function playGame(userChoice) {
     const choices = ["камень", "ножницы", "бумага"];
     const computerChoice = choices[Math.floor(Math.random() * choices.length)];
 
@@ -14,3 +14,6 @@ function playGame(userChoice)
     } else {
         winner = "Компьютер";
     }
+    console.log(`Вы показали ${userChoice}, компьютер показывает ${computerChoice}. Победил ${winner}.`);
+}
+console.log(`Вы показали ${userChoice}, компьютер показывает ${computerChoice}. Победил ${winner}.`);
